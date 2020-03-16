@@ -5,7 +5,7 @@
 
 > Get all organization owners of a GitHub Enterprise Server
 
-[![build](https://github.com/stoe/ghes-migration-info/workflows/build/badge.svg)](https://github.com/stoe/ghes-migration-info/actions?query=workflow%3Abuild) [![release](https://github.com/stoe/ghes-migration-info/workflows/release/badge.svg)](https://github.com/stoe/ghes-migration-info/actions?query=workflow%3Arelease)
+[![build](https://github.com/stoe/ghe-migration-info/workflows/build/badge.svg)](https://github.com/stoe/ghe-migration-info/actions?query=workflow%3Abuild) [![release](https://github.com/stoe/ghe-migration-info/workflows/release/badge.svg)](https://github.com/stoe/ghe-migration-info/actions?query=workflow%3Arelease)
 
 ## Install
 
