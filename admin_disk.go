@@ -32,26 +32,26 @@ const (
 	tb = 1 << (iota * 10) // 1 << (4 * 10)
 )
 
-func bytesConvert(b uint64) string {
+func bytesConvert(i uint64) string {
 	u := ""
-	v := float32(b)
+	v := float32(i)
 
 	switch {
-	case b >= tb:
+	case i >= tb:
 		u = "TB"
 		v = v / tb
-	case b >= gb:
+	case i >= gb:
 		u = "GB"
 		v = v / gb
-	case b >= mb:
+	case i >= mb:
 		u = "MB"
 		v = v / mb
-	case b >= kb:
+	case i >= kb:
 		u = "kb"
 		v = v / kb
-	case b >= mb:
+	case i >= b:
 		u = "B"
-	case b == gb:
+	case i == b:
 		return "0"
 	}
 
